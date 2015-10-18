@@ -1,0 +1,74 @@
+body {
+  width: 100%;	
+  padding-top:100px; 
+  padding-bottom:100px;
+  
+  /* Fix background during scrolling */
+  background-attachment: fixed;
+  
+  /* scaling background image */
+  background-image: url("images/back.png");
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+.wrapper {
+  padding: 2em;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  background-color: #FFF;
+}
+h2{
+  font-family: 'Tangerine', bold;
+  text-shadow: 4px 4px 4px #aaa;
+  font-size: 40px;
+  font-weight: 200px;
+}
+p{
+  font-family: 'Tangerine', bold;
+  text-shadow: 4px 4px 4px #aaa;
+  font-size: 25px;
+} 
+
+
+form, button{
+  font-family: 'Cardo', cursive;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.modal-body{
+  font-family: 'Cardo', cursive;
+   opacity: 0.8;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ .labalclass {
+    opacity: 0.6; /* opacity [0-1] */
+    -moz-opacity: 0.6; 
+    -webkit-opacity: 0.6; 
+}
+.copy{
+  font-family: 'Tangerine', bold;
+  text-shadow: 4px 4px 4px #aaa;
+  font-size: 20px;
+  text-align: left;
+}
+.uib-datepicker{
+        font-size:16px;
+        line-height: 1.3;
+    }
+
+.must {
+ color: red;
+ }

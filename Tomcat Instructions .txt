@@ -1,0 +1,30 @@
+Installing apache : 
+
+1)Download a binary distribution of the core module: apache-tomcat-7.0.47.tar.gz from here. 
+2) Unzip 
+~/Downloads/apache-tomcat-7.0.47
+3) Open to Terminal and move the  un-archived distribution to /usr/local
+sudo mkdir -p /usr/local
+sudo mv ~/Downloads/apache-tomcat-7.0.47 /usr/local
+
+Make all scripts executable:
+sudo chmod +x /Library/Tomcat/bin/*.sh
+
+
+Setting Java Home 
+1) With the Java optional package or Oracle JDK installed, 
+adding one of the following lines to your ~/.bash_profile file will set the environment variable accordingly.
+
+echo export "JAVA_HOME=\$(/usr/libexec/java_home)" >> ~/.bash_profile
+Or 
+touch ~/.bash_profile;
+vim  ~/.bash_profile;
+​$ export ​​JAVA_HOME=$(/usr/libexec/java_home)
+or 
+export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+
+
+
+Running the application 
+downlaod war and keep under the webapps folder of apache 
+~\apache-tomcat-7.0.61-windows-x86\apache-tomcat-7.0.61\webapps
